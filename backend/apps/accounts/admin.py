@@ -12,3 +12,4 @@ class UserAdmin(BaseUserAdmin):
     add_fieldsets = BaseUserAdmin.add_fieldsets + (
         ('CivicLens Profile', {'fields': ('role', 'department', 'phone')}),
     )
+

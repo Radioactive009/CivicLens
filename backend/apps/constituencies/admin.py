@@ -17,3 +17,4 @@ class ConstituencyAdmin(admin.ModelAdmin):
     list_display = ('name', 'constituency_code', 'state', 'district', 'constituency_type', 'is_reserved')
     list_filter = ('state', 'constituency_type', 'is_reserved')
     search_fields = ('name', 'constituency_code')
+

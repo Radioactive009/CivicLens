@@ -37,3 +37,4 @@ class ConstituencyDetailSerializer(serializers.ModelSerializer):
             'constituency_type', 'boundary_reference', 'latitude', 'longitude',
             'is_reserved', 'geojson_data', 'created_at', 'updated_at'
         ]
+

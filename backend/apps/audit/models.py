@@ -19,3 +19,4 @@ class AuditLog(models.Model):
 
     def __str__(self):
         return f"[{self.timestamp}] {self.user} - {self.action} on {self.resource_type}:{self.resource_id}"
+

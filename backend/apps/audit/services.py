@@ -12,3 +12,4 @@ def log_activity(user, action, resource_type, resource_id=None, metadata=None):
     except Exception as e:
         # Avoid crashing core request on logging error
         pass
+

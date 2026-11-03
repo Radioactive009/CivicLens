@@ -20,3 +20,4 @@ class AuditLogViewSet(viewsets.ReadOnlyModelViewSet):
     permission_classes = [IsAdminUser]
     filterset_fields = ['action', 'resource_type']
     search_fields = ['action', 'resource_type', 'resource_id', 'user__username']
+

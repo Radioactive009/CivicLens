@@ -15,3 +15,4 @@ class IsResearcherOrHigher(permissions.BasePermission):
         if not request.user or not request.user.is_authenticated:
             return False
         return request.user.role in ['ADMIN', 'ANALYST', 'RESEARCHER'] or request.user.is_superuser
+

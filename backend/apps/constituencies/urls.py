@@ -10,3 +10,4 @@ router.register(r'constituencies', ConstituencyViewSet, basename='constituencies
 urlpatterns = [
     path('', include(router.urls)),
 ]
+
